@@ -1,0 +1,724 @@
+/******************/
+/* Font Face Kits */
+/******************/
+@font-face {
+	font-family: 'arialregular';
+	src: url('../fonts/arial-webfont.eot');
+	src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arial-webfont.woff') format('woff'),  url('../fonts/arial-webfont.ttf') format('truetype'),  url('../fonts/arial-webfont.svg#arialregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialbold';
+	src: url('../fonts/arialbd-webfont.eot');
+	src: url('../fonts/arialbd-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arialbd-webfont.woff') format('woff'),  url('../fonts/arialbd-webfont.ttf') format('truetype'),  url('../fonts/arialbd-webfont.svg#arialbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialitalic';
+	src: url('../fonts/ariali-webfont.eot');
+	src: url('../fonts/ariali-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariali-webfont.woff') format('woff'),  url('../fonts/ariali-webfont.ttf') format('truetype'),  url('../fonts/ariali-webfont.svg#arialitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialblack';
+	src: url('../fonts/ariblk-webfont.eot');
+	src: url('../fonts/ariblk-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariblk-webfont.woff') format('woff'),  url('../fonts/ariblk-webfont.ttf') format('truetype'),  url('../fonts/ariblk-webfont.svg#arialblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaregular';
+	src: url('../fonts/helvetica-webfont.eot');
+	src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/helvetica-webfont.woff') format('woff'),  url('../fonts/helvetica-webfont.ttf') format('truetype'),  url('../fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/******************/
+/* Font Face Kits */
+/******************/
+.banner_wrapper {
+	position: relative;
+	text-align: center;
+}
+.banner_wrapper img {
+	width: 100%;
+	height: auto;
+}
+.banner_wrapper .row {
+	width: 100%;
+	background-color: rgba(17, 17, 17, 0.7);
+	position: absolute;
+	z-index: 2;
+	margin: 0;
+	padding: 33px 0;
+	top: 0;
+}
+.banner_titles {
+	color: #ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	font-size: 59px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 68px;
+}
+.banner_titles span {
+	font-family: 'ProximaNovaExtraBold', Helvetica, Arial;
+}
+.content_wrapper .container p {
+	font-size: 16px;
+	margin-bottom: 24px;
+	font-family: Helvetica, Arial;
+}
+.align_center {
+	text-align: center;
+}
+.content_wrapper .container {
+	padding-top: 40px;
+	font-family: Helvetica, Arial;
+	color: #000000;
+	line-height: 24px;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+}
+.h3-default {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 36px;
+}
+.blue_links {
+	color: #184f87;
+	font-weight: bold;
+}
+.blue_links:hover {
+	color: #184f87;
+	text-decoration: underline;
+}
+.location_map iframe {
+	min-height: 340px;
+	vertical-align: middle;
+}
+.medium_titles {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 23px;
+	border-bottom: 1px solid #cccccc;
+	line-height: 32px;
+	padding-bottom: 11px;
+}
+/*******************/
+/* Financing 1 CSS */
+/*******************/
+.yellow_strip {
+	background-color: #ffbe57;
+	position: relative;
+}
+.yellow_strip .container {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.yellow_strip_title {
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	font-size: 27px;
+	text-transform: uppercase;
+	margin: 0px;
+	line-height: 30px;
+	margin: 35px 0 34px 0;
+}
+.yellow_strip_title > span {
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+}
+.cream_section {
+	background-color: #fff1dc;
+	position: relative;
+}
+.cream_section .container {
+	padding-top: 44px;
+	padding-bottom: 66px;
+}
+.yellow_section_title {
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+	font-size: 24px;
+	padding-left: 10px;
+	line-height: 28px;
+	margin-bottom: 14px;
+}
+.three_box_wrapper {
+	border: 1px solid #eacfa5;
+	margin-top: 14px;
+	margin-bottom: 36px;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		 -o-border-radius: 4px;
+			border-radius: 4px;
+}
+.three_box_wrapper .col-md-4 {
+	border-left: 1px solid #eacfa5;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 24px;
+}
+.three_box_wrapper .col-md-4:first-child {
+	border-left: 0px none;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.three_box_wrapper .col-md-4 .col-sm-12 .yellow_section_title {
+	padding: 0px;
+	margin-top: 25px;
+}
+.three_box_wrapper .col-md-4 .col-sm-12 p, .three_box_wrapper .col-md-4 .col-sm-12 ul {
+	font-size: 14px;
+}
+.three_box_wrapper .col-md-4 .col-sm-12 p {
+	margin-bottom: 11px;
+}
+.three_box_wrapper .col-md-4 .col-sm-12 ul {
+	padding-left: 13px;
+}
+.bordered_box {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #eacfa5;
+	position: relative;
+	overflow: hidden;
+}
+.bordered_box .normal_table tr td {
+	border-color: #eacfa5;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.bordered_box .normal_table tr td span {
+	display: block;
+	font-weight: bold;
+}
+.bordered_box .normal_table tr td {
+	text-transform: uppercase;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	font-size: 16px;
+	padding: 12px 20px;
+	line-height: 24px;
+	border-left: 1px solid #eacfa5;
+}
+.bordered_box .normal_table {
+	margin-top: -1px;
+	margin-bottom: 0px;
+}
+.bordered_box .normal_table tr td:first-child {
+	text-transform: none;
+	font-size: 14px;
+	font-family: Helvetica, Arial;
+	border-left: 0px none;
+}
+.def_table {
+	margin-bottom: 0px;
+}
+.def_table .yellow_section_title {
+	padding-left: 0px;
+}
+.def_table, .def_table td {
+	border: 0px none !important;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+	vertical-align: middle !important;
+}
+.def_table td {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 16px;
+	line-height: 18px;
+}
+.def_table td:first-child {
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+	font-size: 24px;
+	padding-left: 10px;
+	line-height: 28px;
+}
+.bordered_box {
+	border: 1px solid #eacfa5;
+	margin-bottom: 54px;
+	font-size: 14px;
+	line-height: 24px;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		 -o-border-radius: 4px;
+			border-radius: 4px;
+}
+.bordered_box .col-md-12 p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 0px !important;
+}
+.bordered_box ul {
+	padding-left: 13px;
+}
+.bordered_box .col-md-12 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.call_txt {
+	padding-left: 22px;
+	font-family: Helvetica, Arial;
+	line-height: 24px;
+}
+.call_txt {
+	font-size: 18px !important;
+	margin-top: 12px;
+	margin-bottom: 0px !important;
+}
+.bordered_box .col-lg-12 {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.bordered_box .col-lg-12 .yellow_section_title {
+	padding: 0px;
+}
+.call_txt span {
+	color: #1c5794;
+	font-weight: bold;
+}
+.yellow_btn, .yellow_btn:focus {
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+	font-size:24px;
+	color:#ffffff;
+	float:right;
+	margin-top:32px;
+	outline: 0px none;
+	text-decoration: none;
+	display:inline-block;
+	line-height:24px;
+	vertical-align:middle;
+	text-transform:uppercase;
+	background: url(../images/inner_pages/check-circle-white.png) no-repeat 190px center #ffbe57;
+	padding:18px 82px 18px 20px;
+	border-radius:4px;
+	border: 1px solid #e4a748;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	 -ms-border-radius:4px;
+	  -o-border-radius:4px;
+}
+.yellow_btn:hover {
+	color:#ffffff;
+}
+.page_position .current_page {
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+	font-size: 16px;
+	text-transform: uppercase;
+	max-width: 500px;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.page_position .yellow_btn {
+	margin-top: 0px;
+	padding-left: 34px;
+	padding-right: 83px;
+}
+.bottom_margin {
+	margin-bottom: 59px;
+}
+/*******************/
+/* Financing 1 CSS */
+/*******************/
+
+/* Top Banner Section */
+.financing-wrapper
+{
+	position:relative;
+}
+.financing-wrapper > img
+{
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+}
+.financial-pattern-bg
+{
+	background:url(../images/inner_pages/financial-pattern-bg.png) repeat;
+	height:275px;
+	z-index:9999;
+	margin:auto;
+	max-width:1280px;
+}
+.main-page-title{
+	font-size:59px;
+	color:#ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	line-height:72px;
+	padding:18px 0px 23px 0px;
+	border-bottom:1px solid #232424;
+}
+.main-page-title > span
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+}
+.main-sm-title
+{
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	font-size:30px;
+	color:#ffffff;
+	margin:0px;
+	padding:27px 0px 7px 0px;
+}
+.finanane-text-holder .col-lg-9, col-lg-4
+{
+	padding:0px;
+}
+.finance-ul 
+{
+	margin:0px;
+	padding:0px;
+}
+.finance-ul > li
+{
+	float:left;
+	background:url(../images/inner_pages/checked-circle.png) no-repeat 0px 2px;
+	width:45%;
+	list-style:none;
+	padding:0px 0px 0px 30px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:25px;	
+}
+.finance-ul > li:first-child
+{
+	margin-right:30px;
+}
+.anchor-get-started
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+	font-size:24px;
+	color:#ffffff;
+	float:right;
+	margin-top:32px;
+	display:inline-block;
+	line-height:24px;
+	vertical-align:middle;
+	text-transform:uppercase;
+	background:url(../images/inner_pages/check-circle-white.png) no-repeat 200px center #ffbe57;
+	padding:22px 82px 22px 20px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.anchor-get-started:hover
+{
+	color:#ffffff;
+}
+.finace-left-content
+{
+	width:70%;
+	float:left;
+}
+.finace-right-content
+{
+	width:30%;
+	float:right;
+}
+/* Top Banner Section */
+
+/* Bottom Text Content */
+.loan-description-wrapper
+{
+	background:url(../images/inner_pages/inner_pages_bg.jpg) repeat;
+	padding:30px 0px 0px 0px;
+	border-top:1px solid #d8d8d8;
+}
+.loan-description-wrapper h3
+{
+	font-size:36px;
+	color:#000000;
+	line-height:24px;
+	margin:0px;
+	padding:30px 0px 30px 0px;
+	font-family: Helvetica, Arial;
+}
+.loan-description-wrapper p
+{
+	font-family: Helvetica, Arial;
+	line-height:24px;
+	font-size:16px;
+	color:#000000;
+	padding:0px 0px 13px 0px;
+}
+.loan-description-wrapper p span
+{
+	font-weight:bold;
+}
+/* Bottom Text Content */
+
+/* Blue Strip Text and Form Area */
+.blue-strip-wrapper
+{
+	background:#386fa8;
+}
+.blue-strip-wrapper h5
+{
+	background:#386fa8;
+	margin:0px;
+	padding:0px 25px 0px 29px;
+	color:#ffffff;
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+	font-size:20px;
+	
+}
+.blue-strip-wrapper .col-lg-4
+{
+	margin:0px;
+	border-right:1px solid #34689e;
+	padding:24px 0px 24px 0px;
+}
+.blue-strip-wrapper .col-lg-4:first-child
+{
+	border-left:1px solid #34689e;
+}
+.loan-address-wrapper
+{
+	background:#ffffff;
+}
+.loan-address-wrapper .col-lg-4
+{
+	margin:0px;
+	border-right:1px solid #eeeeee;
+	padding:25px 0px 25px 0px;
+	min-height:268px;
+}
+.loan-address-wrapper .col-lg-4:first-child
+{
+	border-left:1px solid #eeeeee;
+}
+.loan-address-wrapper .col-lg-4:first-child .loan-form-wrapper {
+	padding: 0 17px;
+}
+.loan-form-wrapper
+{
+	padding:0px 29px 0px 29px;
+}
+.loan-form-wrapper label
+{
+	text-align:right;
+	display:inline-block;
+	font-family: Helvetica, Arial;
+	font-size:14px;
+	width:101px;
+	font-weight:bold;
+	margin-right: 13px;
+	-webkit-font-smoothing: none;
+}
+.loan-form-wrapper .col-lg-4:first-child {
+	padding: 0px;
+}
+.loan-form-wrapper .form-title
+{
+	margin-top:10px;
+}
+.loan-form-wrapper input[type="text"]
+{
+	background:#f6f6f6;
+	border:1px solid #dddddd;
+	border-radius:3px;
+	padding:3px 10px 3px 10px;
+	width:148px;
+	min-height:32px;
+	font-size:16px;
+	color:#515151;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.loan-form-wrapper input[type="submit"]
+{
+	display:inline-block;
+	background:#ffbe57;
+	text-align:center;
+	color:#413727;
+	float:right;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+	font-size:16px;
+	line-height:24px;
+	border:1px solid #e5bb78;
+	padding:6px 27.5px 6px 27.5px;
+	text-transform:uppercase;
+	border:1px solid #e5bb78;
+	border-radius:3px;
+	margin-right:19px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.payment-info
+{
+	float:right;
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size:16px;
+	margin-right: 18px;
+	padding:10px 0px 0px 0px;
+	line-height:24px;
+	color:#000000;
+}
+.payment-info span
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+	margin-left:22px;
+}
+.contact-us-text
+{
+	font-family: Helvetica, Arial;
+	font-size:16px;
+	color:#333333;
+	padding:5px 0px 0px 0px;
+	line-height:19px;
+}
+.contact-info
+{
+	color:#2a1818;
+	font-size:16px;
+	padding:5px 0px 0px 0px;
+	line-height:30px;
+	font-family: Helvetica, Arial;
+}
+.contact-info span
+{
+	font-weight:bold;
+	color:#386fa8;
+	margin-right:15px;
+}
+.address-info
+{
+	color:#333333;
+	font-family: Helvetica, Arial;
+	font-size:16px;
+	padding:5px 0px 5px 0px;
+	line-height:19px;
+}
+.address-info span
+{
+	font-weight:bold;
+}
+.anchor-white
+{
+	display:inline-block;
+	text-transform:uppercase;
+	text-align:center;
+	color:#386fa8;
+	background:#fffffff;
+	font-size:16px;
+	margin-top:14px;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial; 
+	padding:10px 20px 10px 20px;
+	border:1px solid #80a3c7;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.anchor-white:hover
+{
+	color:#386fa8;
+}
+/* Blue Strip Text and Form Area */
+
+/*******************/
+/* Financing 2 CSS */
+/*******************/
+.bordered_box .normal_table2 {
+	margin-top: -1px;
+	margin-bottom: 0px;
+}
+.bordered_box .normal_table2 td {
+	line-height: 24px;
+	border-top: 1px solid #eacfa5;
+	border-left: 1px solid #eacfa5;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.bordered_box .normal_table2 td:first-child {
+	border-left: 0px;
+	font-weight: bold;
+}
+.left_space1 {
+	padding-left: 20px;
+}
+.yellow_form_holder {
+	background-color: #ffbe57;
+	padding: 36px 1px;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 59px;
+}
+.yellow_form_holder {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.yellow_form_holder .col-sm-4, .yellow_form_holder .col-sm-12 {
+	padding-left: 18px;
+	padding-right: 18px;
+	position: relative;
+}
+.yellow_form_holder .form_fields label {
+	display: block;
+	line-height: 18px;
+}
+.yellow_form_holder .form_fields input[type="text"], .yellow_form_holder .form_fields input[type="email"] {
+	width: 100%;
+	padding: 9px;
+	border: 1px solid #e7a948;
+}
+.yellow_form_holder .form_fields input[type="text"], .yellow_form_holder .form_fields input[type="email"] {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.yellow_form_holder .checkbox_field {
+	margin-top: 30px;
+}
+.yellow_form_holder .checkbox_field input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	clip: rect(0px, 0px, 0px, 0px);
+}
+.yellow_form_holder .checkbox_field label {
+	background: url(../images/inner_pages/checkbox_bg.png) no-repeat top left;
+	line-height: 16px;
+	font-weight: bold;
+	padding-left: 27px;
+	cursor: pointer;
+}
+.yellow_form_holder .checkbox_field input[type="checkbox"]:checked + label {
+	background: url(../images/inner_pages/checkbox_bg_checked.png) no-repeat top left;
+}
+/*******************/
+
+
+/* Financing 2 CSS */
+/*******************/
+.financing-header-image
+{
+	background:url(../images/inner_pages/financing-header-bg.jpg) no-repeat center top;
+	height:648px;
+}

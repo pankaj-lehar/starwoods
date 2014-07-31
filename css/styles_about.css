@@ -1,0 +1,314 @@
+@font-face {
+	font-family: 'arialregular';
+	src: url('../fonts/arial-webfont.eot');
+	src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arial-webfont.woff') format('woff'),  url('../fonts/arial-webfont.ttf') format('truetype'),  url('../fonts/arial-webfont.svg#arialregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialbold';
+	src: url('../fonts/arialbd-webfont.eot');
+	src: url('../fonts/arialbd-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arialbd-webfont.woff') format('woff'),  url('../fonts/arialbd-webfont.ttf') format('truetype'),  url('../fonts/arialbd-webfont.svg#arialbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialitalic';
+	src: url('../fonts/ariali-webfont.eot');
+	src: url('../fonts/ariali-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariali-webfont.woff') format('woff'),  url('../fonts/ariali-webfont.ttf') format('truetype'),  url('../fonts/ariali-webfont.svg#arialitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialblack';
+	src: url('../fonts/ariblk-webfont.eot');
+	src: url('../fonts/ariblk-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariblk-webfont.woff') format('woff'),  url('../fonts/ariblk-webfont.ttf') format('truetype'),  url('../fonts/ariblk-webfont.svg#arialblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaregular';
+	src: url('../fonts/helvetica-webfont.eot');
+	src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/helvetica-webfont.woff') format('woff'),  url('../fonts/helvetica-webfont.ttf') format('truetype'),  url('../fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.banner_wrapper {
+	position: relative;
+	text-align: center;
+}
+.banner_wrapper img {
+	width: 100%;
+	min-width: 1200px;*
+	height: auto;
+}
+.banner_wrapper .row {
+	width: 100%;
+	background-color: rgba(17, 17, 17, 0.7);
+	z-index: 2;
+	margin: auto;
+	max-width:1280px;
+	padding: 33px 0;
+	top: 0;
+}
+.banner_titles {
+	color: #ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	font-size: 59px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 68px;
+	position:relative;
+	z-index:9999;
+}
+.banner_titles span {
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+}
+.h3-default {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 36px;
+}
+.content_wrapper .container p {
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 8px;
+	line-height:24px;
+	font-family: Helvetica, Arial;
+}
+.our-team-wrapper {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+.our-team-wrapper img {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.align_center {
+	text-align: center;
+}
+.content_wrapper .container {
+	padding-top: 40px;
+	font-family: Helvetica, Arial;
+	color: #000000;
+	line-height: 24px;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+}
+.our-team-title {
+	text-align: center;
+	display: block;
+	width: 300px;
+	position: relative;
+	border-top: 1px solid #7e7e7e;
+	border-bottom: 1px solid #7e7e7e;
+	margin: -101px auto auto auto;
+}
+.person-name {
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 0px 25px 0px;
+}
+.dealer-contact-wrapper {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	margin-top: 9px;
+}
+.dealer-title {
+	color: #ffffff;
+	background: #386fa8;
+	font-family: Helvetica, Arial;
+	font-size: 20px;
+	margin: 0px;
+	padding: 18px 15px 18px 15px;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	-ms-border-radius: 2px 2px 0 0;
+	-o-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+}
+.dealer-form-wrapper {
+	padding: 0px 15px 0px 15px;
+}
+.dealer-contact-wrapper {
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	-ms-border-radius: 0 0 2px 2px;
+	-o-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+}
+.form-dealer-contact {
+	padding: 0px 0px 20px 0px;
+}
+.form-dealer-contact label {
+	display: block;
+	margin: 0px;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+}
+.form-dealer-contact input[type="text"] {
+	background: #f6f6f6;
+	width: 100%;
+	display: block;
+	color: #7e7e7e;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.form-dealer-contact textarea {
+	background: #f6f6f6;
+	width: 100%;
+	display: block;
+	color: #7e7e7e;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	padding: 2px 10px 2px 10px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.form-dealer-contact input[type="submit"] {
+	background: #ffbe57;
+	width: 100%;
+	display: block;
+	color: #413727;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	font-size: 16px;
+	padding: 8px 10px 8px 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.form-dealer-contact .form-title {
+	margin-top: 13px;
+}
+.bbb-image {
+	margin-top: -20px;
+	position: relative;
+}
+.error-msg {
+	background: url(../images/inner_pages/cross-error.png) no-repeat 0px 5px;
+	padding: 2px 0px 5px 21px !important;
+	font-style: italic;
+	color: #8e8e8e;
+	margin: 0px !important;
+	margin-left: 4px !important;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+}
+.form-dealer-contact .btn-default {
+	background: #f6f6f6;
+	width: 100%;
+	display: block;
+	color: #7e7e7e;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.form-dealer-contact .bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="span"] {
+	margin: 0px;
+}
+.form-dealer-contact .bootstrap-select.btn-group .btn .caret {
+	background: url(../images/inner_pages/dropdown-button.png) no-repeat right center;
+	width: 31px;
+	height: 30px;
+	top: 2px;
+	right: 0px;
+	display: inline-block;
+	border-left: 1px solid #aaaaaa;
+	border: none;
+}
+/******************/
+/*  Contact Page  */
+/******************/
+.h3-default {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 36px;
+}
+.blue_links {
+	color: #184f87;
+	font-weight: bold;
+}
+.blue_links:hover {
+	color: #184f87;
+	text-decoration: underline;
+}
+.address_txt {
+	line-height: 36px;
+	margin-top: 29px;
+}
+.address_txt span {
+	font-weight: bold;
+}
+.location_map {
+	padding: 5px;
+	background-color: #ffffff;
+	margin-top: 58px;
+	margin-bottom: 45px;
+}
+.location_map iframe {
+	min-height: 340px;
+	vertical-align: middle;
+}
+.medium_titles {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 24px;
+	border-bottom: 1px solid #cccccc;
+	line-height: 32px;
+	padding-bottom: 11px;
+}
+.half_grids {
+	width: 50%;
+	float: left;
+	padding-right: 20px;
+}
+.half_grids p {
+	margin-bottom: 23px;
+}
+.contact_info_titles {
+	font-weight: bold;
+	display: block;
+}
+.contact_info_position {
+	display: block;
+	font-style: italic;
+	color: #666666;
+}
+.contact_info_email {
+	display: block;
+}
+.col-lg-4 .half_grids {
+	width: 100%;
+	margin-bottom: 17px;
+}
+/******************/
+/*  Contact Page  */
+/******************/
+.shipping-header-image
+{
+	background:url(../images/inner_pages/shipping_banner.jpg) no-repeat center top;
+	height:402px;
+}

@@ -1,0 +1,65 @@
+.banner_wrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.banner_container {
+	width: 100%;
+	background-color: rgba(17, 17, 17, 0.7);
+	z-index: 2;
+	margin: auto;
+	max-width:1280px;
+	padding: 33px 0;
+	top: 0;
+}
+.banner_titles {
+	color: #ffffff;
+	font-family: 'ProximaNovaLtRegular';
+	font-size: 59px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 68px;
+	position: relative;
+	z-index: 9999;
+}
+
+.banner_titles span {
+	font-family: 'ProximaNovaRgBold';
+}
+
+.banner_wrapper img {
+	width: 100%;
+	height: auto;
+}
+.reviews-banner-image
+{
+	background:url(../images/reviews-header.png) no-repeat center top;
+	height:403px;
+}
+.main-page-title{
+	font-size:59px;
+	color:#ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	line-height:72px;
+	text-align:left;
+	padding:18px 0px 23px 0px;
+	border-bottom:1px solid #232424;
+}
+.main-page-title > span
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+}
+.main-sm-title
+{
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	font-size:30px;
+	color:#ffffff;
+	margin:0px;
+	text-align:left;
+	padding:27px 0px 7px 0px;
+}

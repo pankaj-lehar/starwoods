@@ -1,0 +1,54 @@
+/**********************/
+/* Non Responsive CSS */
+/**********************/
+.fixed_container .col-lg-1, .fixed_container .col-lg-2, .fixed_container .col-lg-3, .fixed_container .col-lg-4, .fixed_container .col-lg-5, .fixed_container .col-lg-6, .fixed_container .col-lg-7, .fixed_container .col-lg-8, .fixed_container .col-lg-9, .fixed_container .col-lg-10, .fixed_container .col-lg-11, .fixed_container .col-lg-12, .fixed_container .col-md-1, .fixed_container .col-md-2, .fixed_container .col-md-3, .fixed_container .col-md-4, .fixed_container .col-md-5, .fixed_container .col-md-6, .fixed_container .col-md-7, .fixed_container .col-md-8, .fixed_container .col-md-9, .fixed_container .col-md-10, .fixed_container .col-md-11, .fixed_container .col-md-12, .fixed_container .col-sm-1, .fixed_container .col-sm-1, .fixed_container .col-sm-2, .fixed_container .col-sm-3, .fixed_container .col-sm-4, .fixed_container .col-sm-5, .fixed_container .col-sm-6, .fixed_container .col-sm-7, .fixed_container .col-sm-8, .fixed_container .col-sm-9, .fixed_container .col-sm-10, .fixed_container .col-sm-11, .fixed_container .col-sm-12 {
+	float: left;
+}
+.fixed_container {
+	/*width: 990px !important;*/
+	width: 100%;
+	margin: auto;
+}
+.fixed_container .col-lg-12 {
+	width: 100%;
+}
+.fixed_container .col-lg-6 {
+	width: 50%;
+}
+.fixed_container .col-lg-8 {
+	width: 66.6667%;
+}
+.fixed_container .col-lg-4 {
+	width: 33.3333%;
+}
+.fixed_container .col-sm-4 {
+	width: 33.3333%;
+}
+.fixed_container .col-sm-2 {
+	width: 16.6667%;
+}
+.fixed_container .col-sm-1 {
+	width: 8.33333%;
+}
+.fixed_container .col-sm-7 {
+	width: 58.3333%;
+}
+.fixed_container .col-md-4 {
+	width: 33.3333%;
+}
+.fixed_container .col-md-9, .fixed_container .col-xs-12 {
+	width: 75% !important;
+}
+.fixed_container .col-md-3, .fixed_container .col-xs-6 {
+	width: 25% !important;
+}
+.fixed_container .col-sm-6 {
+	width: 50%;
+}
+.home-bg, .yellow_strip, .cream_section, .blue-strip-wrapper, .loan-address-wrapper, .loan-description-wrapper, .grey-bg, .light-grey-bg, .financing-wrapper {
+	display: table;
+	width: 100%;
+}
+/**********************/
+/* Non Responsive CSS */
+/**********************/

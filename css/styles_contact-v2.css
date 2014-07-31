@@ -1,0 +1,170 @@
+/******************/
+/* Font Face Kits */
+/******************/
+@font-face {
+	font-family: 'arialregular';
+	src: url('../fonts/arial-webfont.eot');
+	src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arial-webfont.woff') format('woff'),  url('../fonts/arial-webfont.ttf') format('truetype'),  url('../fonts/arial-webfont.svg#arialregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialbold';
+	src: url('../fonts/arialbd-webfont.eot');
+	src: url('../fonts/arialbd-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arialbd-webfont.woff') format('woff'),  url('../fonts/arialbd-webfont.ttf') format('truetype'),  url('../fonts/arialbd-webfont.svg#arialbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialitalic';
+	src: url('../fonts/ariali-webfont.eot');
+	src: url('../fonts/ariali-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariali-webfont.woff') format('woff'),  url('../fonts/ariali-webfont.ttf') format('truetype'),  url('../fonts/ariali-webfont.svg#arialitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialblack';
+	src: url('../fonts/ariblk-webfont.eot');
+	src: url('../fonts/ariblk-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariblk-webfont.woff') format('woff'),  url('../fonts/ariblk-webfont.ttf') format('truetype'),  url('../fonts/ariblk-webfont.svg#arialblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaregular';
+	src: url('../fonts/helvetica-webfont.eot');
+	src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/helvetica-webfont.woff') format('woff'),  url('../fonts/helvetica-webfont.ttf') format('truetype'),  url('../fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/******************/
+/* Font Face Kits */
+/******************/
+.banner_wrapper {
+	position: relative;
+	text-align: center;
+}
+.banner_wrapper img {
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+}
+.banner_wrapper .row {
+	width: 100%;
+	background-color: rgba(17, 17, 17, 0.7);
+	z-index: 2;
+	margin: auto;
+	max-width:1280px;
+	padding: 33px 0;
+}
+.banner_titles {
+	color: #ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	font-size: 59px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 68px;
+}
+.banner_titles span {
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+}
+.content_wrapper .container p {
+	font-size: 16px;
+	margin-bottom: 24px;
+	font-family: Helvetica, Arial;
+}
+.align_center {
+	text-align: center;
+}
+.content_wrapper .container {
+	padding-top: 40px;
+	font-family: Helvetica, Arial;
+	color: #000000;
+	line-height: 24px;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+}
+.h3-default {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 36px;
+}
+.blue_links {
+	color: #184f87;
+	font-weight: bold;
+}
+.blue_links:hover {
+	color: #184f87;
+	text-decoration: underline;
+}
+.address_txt {
+	line-height: 36px;
+	margin-top: 29px;
+}
+.address_txt span {
+	font-weight: bold;
+}
+.location_map {
+	padding: 5px;
+	background-color: #ffffff;
+	margin-top: 58px;
+	margin-bottom: 45px;
+}
+.location_map iframe {
+	min-height: 340px;
+	vertical-align: middle;
+	margin: 0px !important;
+}
+.medium_titles {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 22px;
+	border-bottom: 1px solid #cccccc;
+	line-height: 32px;
+	padding-bottom: 11px;
+}
+.sidebar_grids {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 6px;
+}
+.half_grids {
+	padding-left: 0px;
+	padding-top:30px;
+}
+.half_grids p {
+	margin-bottom: 23px;
+}
+.contact_info_titles {
+	font-weight: bold;
+	display: block;
+}
+.contact_info_position {
+	display: block;
+	font-style: italic;
+	color: #666666;
+}
+.contact_info_email {
+	display: block;
+}
+.col-lg-4 .half_grids {
+	width: 100%;
+	margin-bottom: 17px;
+}
+.sale-team-info-box img
+{
+	float:left;
+	display:inline-block;
+	margin-right:30px;
+}
+.sale-team-info-box
+{
+	padding:10px 0px 10px 0px;
+}
+.other-contact-info
+{
+	padding:50px 0px 0px 0px;
+}
+.contactv2-header-image
+{
+	background:url(../images/inner_pages/contact_banner.jpg) no-repeat center top;
+	height:403px;
+}

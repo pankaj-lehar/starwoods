@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'arialregular';
+	src: url('../fonts/arial-webfont.eot');
+	src: url('../fonts/arial-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arial-webfont.woff') format('woff'),  url('../fonts/arial-webfont.ttf') format('truetype'),  url('../fonts/arial-webfont.svg#arialregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialbold';
+	src: url('../fonts/arialbd-webfont.eot');
+	src: url('../fonts/arialbd-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/arialbd-webfont.woff') format('woff'),  url('../fonts/arialbd-webfont.ttf') format('truetype'),  url('../fonts/arialbd-webfont.svg#arialbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialitalic';
+	src: url('../fonts/ariali-webfont.eot');
+	src: url('../fonts/ariali-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariali-webfont.woff') format('woff'),  url('../fonts/ariali-webfont.ttf') format('truetype'),  url('../fonts/ariali-webfont.svg#arialitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arialblack';
+	src: url('../fonts/ariblk-webfont.eot');
+	src: url('../fonts/ariblk-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ariblk-webfont.woff') format('woff'),  url('../fonts/ariblk-webfont.ttf') format('truetype'),  url('../fonts/ariblk-webfont.svg#arialblack') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaregular';
+	src: url('../fonts/helvetica-webfont.eot');
+	src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/helvetica-webfont.woff') format('woff'),  url('../fonts/helvetica-webfont.ttf') format('truetype'),  url('../fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.banner_wrapper {
+	position: relative;
+	text-align: center;
+}
+.banner_wrapper img {
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+}
+.banner_wrapper .row {
+	width: 100%;
+	background-color: rgba(17, 17, 17, 0.7);
+	position: absolute;
+	z-index: 2;
+	margin: 0;
+	padding: 33px 0;
+	top: 0;
+}
+.banner_titles {
+	color: #ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	font-size: 59px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 68px;
+	position:relative;
+	z-index:9999;
+}
+.banner_titles span {
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+}
+.h3-default {
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size: 36px;
+}
+.content_wrapper .container p {
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 8px;
+	line-height:24px;
+	font-family: Helvetica, Arial;
+}
+.align_center {
+	text-align: center;
+}
+.content_wrapper .container {
+	padding-top: 40px;
+	font-family: Helvetica, Arial;
+	color: #000000;
+	line-height: 24px;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+}
+/********************/
+/* About Us Page V2 */
+/********************/
+.play_btn {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	border: 0px none;
+	background: url(../images/about_us_v2/play_btn.png) no-repeat center center;
+	cursor: pointer;
+}
+.play_btn:focus {
+	outline: 0px none;
+}
+.big_par {
+	font-size: 18px !important;
+	line-height: 28px !important;
+}
+.photo_row {
+	margin: 31px 0 20px 0;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	padding: 30px 0;
+}
+.photo_row ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.photo_row ul li {
+	display: block;
+	float: left;
+	border: 3px solid #212121;
+	margin-left: 20px;
+}
+.photo_row ul li:first-child {
+	margin: 0px;
+}
+.video_popup {
+	width: 800px;
+	margin: 150px auto;
+}
+.video_popup .modal-content {
+	padding: 15px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+}
+.video_popup iframe {
+	margin-top: 0px;
+	vertical-align: middle;
+}
+.video_popup .close {
+	position: absolute;
+	background-color: #f74747;
+	color: #ffffff;
+	opacity: 1;
+	top: 15px;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	right: -50px;
+}
+.video_popup .close:focus {
+	outline: 0px none;
+}
+/********************/
+/* About Us Page V2 */
+/********************/
+.about-video-image
+{
+	background:url(../images/about_us_v3/video_banner.jpg) no-repeat center top;
+	height:550px;
+}
+.starwood-team-image
+{
+	background:url(../images/about_us_v3/starwood-team.jpg) no-repeat center top;
+	height:430px;
+	margin-top:30px;
+}

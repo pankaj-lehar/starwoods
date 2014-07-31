@@ -1,0 +1,341 @@
+/*****************************************************
+Starwood Financing Page Css Stylesheets Starts Here
+/****************************************************/
+.financing-wrapper
+{
+	position:relative;
+}
+.financing-wrapper > img
+{
+	width:100%;
+	min-width: 1200px;
+	height: auto
+}
+.financial-pattern-bg
+{
+	background:url(../images/inner_pages/financial-pattern-bg.png) repeat;
+	height:275px;
+	z-index:9999;
+	width:100%;
+	margin:auto;
+	max-width:1280px;
+}
+.financial-header-image
+{
+	background:url(../images/inner_pages/financing-header-bg.jpg) no-repeat center top;
+	height:648px;
+}
+.main-page-title{
+	font-size:59px;
+	color:#ffffff;
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	line-height:72px;
+	padding:18px 0px 23px 0px;
+	border-bottom:1px solid #232424;
+}
+.main-page-title > span
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+}
+.main-sm-title
+{
+	font-family: 'ProximaNovaLtRegular', Helvetica, Arial;
+	text-transform:uppercase;
+	font-size:30px;
+	color:#ffffff;
+	margin:0px;
+	padding:27px 0px 7px 0px;
+}
+.finanane-text-holder .col-lg-9, col-lg-4
+{
+	padding:0px;
+}
+.finance-ul 
+{
+	margin:0px;
+	padding:0px;
+}
+.finance-ul > li
+{
+	float:left;
+	background:url(../images/inner_pages/checked-circle.png) no-repeat 0px 2px;
+	width:45%;
+	list-style:none;
+	padding:0px 0px 0px 30px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:25px;	
+}
+.finance-ul > li:first-child
+{
+	margin-right:30px;
+}
+.anchor-get-started
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	font-size:24px;
+	color:#ffffff;
+	float:right;
+	margin-top:32px;
+	display:inline-block;
+	line-height:24px;
+	vertical-align:middle;
+	text-transform:uppercase;
+	background:url(../images/inner_pages/check-circle-white.png) no-repeat 200px center #ffbe57;
+	padding:22px 82px 22px 20px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.anchor-get-started:hover
+{
+	color:#ffffff;
+}
+.finace-left-content
+{
+	width:70%;
+	float:left;
+}
+.finace-right-content
+{
+	width:30%;
+	float:right;
+}
+.blue-strip-wrapper
+{
+	background:#386fa8;
+}
+.blue-strip-wrapper h5
+{
+	background:#386fa8;
+	margin:0px;
+	padding:0px 25px 0px 29px;
+	color:#ffffff;
+	font-family: 'ProximaNovaSemiBold', Helvetica, Arial;
+	font-size:20px;
+	
+}
+.blue-strip-wrapper .col-lg-4
+{
+	margin:0px;
+	border-right:1px solid #34689e;
+	padding:24px 0px 24px 0px;
+}
+.blue-strip-wrapper .col-lg-4:first-child
+{
+	border-left:1px solid #34689e;
+}
+.loan-address-wrapper
+{
+	background:#ffffff;
+}
+.loan-address-wrapper .col-lg-4
+{
+	margin:0px;
+	border-right:1px solid #eeeeee;
+	padding:25px 0px 25px 0px;
+	min-height:268px;
+}
+.loan-address-wrapper .col-lg-4:first-child
+{
+	border-left:1px solid #eeeeee;
+}
+.loan-address-wrapper .col-lg-4:first-child .loan-form-wrapper {
+	padding: 0 17px;
+}
+.loan-form-wrapper
+{
+	padding:0px 29px 0px 29px;
+}
+.loan-form-wrapper label
+{
+	text-align:right;
+	display:inline-block;
+	font-family: Helvetica, Arial;
+	font-size:14px;
+	width:101px;
+	font-weight:bold;
+	margin-right: 13px;
+	-webkit-font-smoothing: none;
+}
+.loan-form-wrapper .col-lg-4:first-child {
+	padding: 0px;
+}
+.loan-form-wrapper .form-title
+{
+	margin-top:10px;
+}
+.loan-form-wrapper input[type="text"]
+{
+	background:#f6f6f6;
+	border:1px solid #dddddd;
+	border-radius:3px;
+	padding:3px 10px 3px 10px;
+	width:148px;
+	min-height:32px;
+	font-size:16px;
+	color:#515151;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.loan-form-wrapper input[type="submit"]
+{
+	display:inline-block;
+	background:#ffbe57;
+	text-align:center;
+	color:#413727;
+	float:right;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	font-size:16px;
+	line-height:24px;
+	border:1px solid #e5bb78;
+	padding:6px 27.5px 6px 27.5px;
+	text-transform:uppercase;
+	border:1px solid #e5bb78;
+	border-radius:3px;
+	margin-right:19px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.payment-info
+{
+	float:right;
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+	font-size:16px;
+	margin-right: 18px;
+	padding:10px 0px 0px 0px;
+	line-height:24px;
+	color:#000000;
+}
+.payment-info span
+{
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	margin-left:22px;
+}
+.contact-us-text
+{
+	font-family: Helvetica, Arial;
+	font-size:16px;
+	color:#333333;
+	padding:5px 0px 0px 0px;
+	line-height: 24px;
+}
+.contact-info
+{
+	color:#2a1818;
+	font-size:16px;
+	padding:5px 0px 0px 0px;
+	line-height:30px;
+	font-family: Helvetica, Arial;
+}
+.contact-info span
+{
+	font-weight:bold;
+	color:#386fa8;
+	margin-right:15px;
+}
+.address-info
+{
+	color:#333333;
+	font-family: Helvetica, Arial;
+	font-size:16px;
+	padding:5px 0px 5px 0px;
+	line-height:19px;
+}
+.address-info span
+{
+	font-weight:bold;
+}
+.anchor-white
+{
+	display:inline-block;
+	text-transform:uppercase;
+	text-align:center;
+	color:#386fa8;
+	background:#fffffff;
+	font-size:16px;
+	margin-top:14px;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial;
+	padding:10px 20px 10px 20px;
+	border:1px solid #80a3c7;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	    -ms-border-radius:3px;
+	     -o-border-radius:3px;
+}
+.anchor-white:hover
+{
+	color:#386fa8;
+}
+.content-description-wrapper
+{
+	background:url(../images/inner_pages/inner_pages_bg.jpg) repeat;
+	padding:40px 0px 0px 0px;
+	border-top:1px solid #d8d8d8;
+}
+.content-description-wrapper h3
+{
+	font-size:36px;
+	color:#000000;
+	line-height:24px;
+	margin:0px;
+	padding:30px 0px 30px 0px;
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial;
+}
+.content-description-wrapper p
+{
+	font-family: Helvetica, Arial;
+	line-height:24px;
+	font-size:16px;
+	color:#000000;
+	padding:0px 0px 13px 0px;
+}
+.content-description-wrapper p span
+{
+	font-weight:bold;
+}
+.italic-font
+{
+	font-style:italic;
+	color:#717171 !important;
+}
+/* Bottom Text Content */
+.loan-description-wrapper
+{
+	background:url(../images/inner_pages/inner_pages_bg.jpg) repeat;
+	padding:30px 0px 0px 0px;
+	border-top:1px solid #d8d8d8;
+}
+.loan-description-wrapper h3
+{
+	font-size:36px;
+	color:#000000;
+	line-height:24px;
+	margin:0px;
+	padding:30px 0px 30px 0px;
+	font-family: Helvetica, Arial;
+}
+.loan-description-wrapper p
+{
+	font-family: Helvetica, Arial;
+	line-height:24px;
+	font-size:16px;
+	color:#000000;
+	padding:0px 0px 13px 0px;
+}
+.loan-description-wrapper p span
+{
+	font-weight:bold;
+}
+/* Bottom Text Content */
+/***************************************************
+Starwood Financing Page Css Stylesheets Starts Here
+/***************************************************/

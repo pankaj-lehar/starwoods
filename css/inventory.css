@@ -1,0 +1,179 @@
+.search-results-text-wrapper {
+	padding-top: 6px;
+	padding-left: 0px;
+}
+
+.search-results-text {
+	font-family: "ProximaNovaRgRegular";
+	font-size: 22px;
+	color: #454d52;
+}
+
+.amount {
+	color: #8a99a3;
+}
+
+.filters-wrapper {
+	background-color: #454d52;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+.filters select {
+	float: left;
+	width: auto;
+	margin-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height: auto;
+}
+
+.inventory-button {
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 3px;
+	font-size: 15px;
+	background-color: #b9b9b9;
+	border: none;
+}
+
+.inventory-body {
+	margin-top: 30px;
+}
+
+.sidebar {
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.inner-sidebar {
+	background-color: rgba(191, 191, 191, 0.6);
+	border-radius: 5px;
+	padding-top: 53px;
+	padding-bottom: 53px;
+}
+
+.separator {
+	margin: 0 auto;
+}
+
+.inner-sidebar ul {
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+	padding-left: 24px;
+	padding-bottom: 15px;
+}
+
+.inner-sidebar ul li {	
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.inner-sidebar ul li a {
+	font-family: 'ProximaNovaRgRegular';
+	color: #313131;
+	text-transform: capitalize;
+}
+
+.inner-sidebar ul li.filters-title {
+	font-family: 'ProximaNovaBlack';
+	color: #22272a;
+	font-size: 22px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	margin-top: -22px;
+}
+
+.quantity {
+	color: #798790;
+}
+
+.inner-sidebar ul li a.view-more-link {
+	color: #0089df;
+}
+
+.inventory-wrapper {
+	background-color: #ffffff;
+}
+
+.inventory-image {
+	border: 1px solid #93a6b2;
+}
+
+.inventory-table-wrapper {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #dedede;
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.inventory-table-wrapper:first-child {
+	border: none;
+}
+
+.inventory-table {
+	width: 100%;
+	text-align: left;
+}
+
+.inventory-table tr td {
+	vertical-align: middle;
+}
+
+.inventory-table tr td p {
+	margin: 0px;
+}
+
+.inventory-title {
+	font-family: "ProximaNovaRgRegular";
+	font-size: 18px;
+	color: #454d52;
+}
+
+.inventory-mi {
+	font-family: "ProximaNovaRgRegular";
+	font-size: 14px;
+	color: #364046;
+}
+
+.inventory-table tr td p.inventory-price {
+	font-family: "ProximaNovaRgRegular";
+	font-size: 20px;
+	color: #313c42;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.inventory-info {
+	font-family: Arial;
+	font-size: 12px;
+	color: #9b9b9b;
+}
+
+.inventory-table tr td p.inventory-info {
+	margin-bottom: 2px;
+}
+
+.internet-price, .internet-price:active, .internet-price:visited, .internet-price:hover {
+	color: #878788;
+	margin-right: 20px;
+}
+
+td.internet-price-td {
+	text-align: right;	
+}
+
+.live-chat, .live-chat:hover, .live-chat:active, .live-chat:visited {
+	font-weight: bold;
+	color: #00adf5;
+}
+
+td.image-td {
+	width: 150px;
+	padding-right: 35px;
+}

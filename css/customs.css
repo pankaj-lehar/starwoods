@@ -1,0 +1,119 @@
+/* ******************** CUSTOMS ******************** */
+
+/*************/
+/*   CARDS   */
+/*************/
+
+.main-container {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.row.customs-card-rows {
+    display: table;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.customs-card-rows {
+	margin-top: 55px;
+}
+
+.row.customs-card-rows [class*="col-"] {
+	    float: none;
+	    display: table-cell;
+	    vertical-align: top;
+	}
+
+.customs-caption {
+	text-align: left;
+	background-color: #ffffff;
+	padding: 30px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.customs-caption .title {
+	font-family: "ProximaNovaSemiBold";
+	color: #000000;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.carousel.slide {
+	margin-bottom: 0px;
+}
+
+.custom-cardsCarousel .carousel-control {
+	z-index: 10;
+	position: relative;
+}
+
+.cards-controls {
+	list-style: none;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	bottom: 20px;
+}
+
+.cards-controls li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cards-controls .carousel-indicators {
+	position: relative;
+	padding-right: 0px;
+	bottom: 0px;
+}
+
+.cards-controls .carousel-indicators li {
+	width: 8px;
+	height: 8px;
+	background-color: #666666;
+	border: none;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.cards-controls .carousel-indicators li.active {
+	background-color: #ffffff;
+	border: none;
+	width: 8px;
+	height: 8px;
+}
+
+
+/*
+@media (min-width: 993px) {
+	.row.customs-card-rows [class*="col-"] {
+	    float: none;
+	    display: table-cell;
+	    vertical-align: top;
+	}
+}
+@media (max-width: 992px) {
+	.custom-cardsCarousel .item img {
+		margin: 0 auto;
+	}
+    .row.customs-card-rows .customs-caption {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    .row.customs-card-rows .customs-slideshow {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+}
+*/
+
+

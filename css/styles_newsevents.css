@@ -1,0 +1,92 @@
+/***************************************
+News & Events Pages CSS Starts Here
+/***************************************/
+.newssection_ul
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'helveticaregular';
+}
+
+.newssection_ul > li
+{
+	margin:0px;
+	list-style:none;
+	padding:0px;
+	border-bottom:1px solid #cccccc;
+	margin-bottom:27px;
+}
+.newssection_ul > li:last-child {
+	border-bottom: 0px none;
+	margin-bottom: 0px;
+}
+.newssection_ul h5
+{
+	color:#184f87;
+	font-size:18px;
+	font-family: 'helveticaregular';
+	font-weight:bold;
+	line-height:21px;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+}
+span.date-text
+{
+	color:#666666;
+	font-size:14px;	
+}
+.newssection_ul a.anchor_cr
+{
+	color:#184f87;
+}
+.newssection_ul p
+{
+	padding:8px 0px 13px 0px;
+	font-family: 'helveticaregular';
+	font-size:16px;
+	color:#000000;
+}
+.anchor-back-to-news
+{
+	color:#184f87;
+	font-size:18px;
+	margin-top:20px;
+	line-height:24px;
+	display:block;
+	margin-bottom:18px;
+}
+.anchor-back-to-news:hover
+{
+	color:#184f87;
+}
+.anchor-back-to-news span
+{
+	background:url(../images/inner_pages/back-to-news.png) no-repeat;
+	width:28px;
+	height:28px;
+	display:inline-block;
+	margin-right:10px;
+	float:left;
+}
+.newsevents-title
+{
+	padding-bottom:5px !important;
+}
+.margin-bottom
+{
+	margin-bottom:25px !important;
+	display:block;
+}
+.blue-bold-text
+{
+	color:#184f87;
+	font-weight:bold;
+}
+.newsevents-header-image
+{
+	background:url(../images/inner_pages/inner_banner_newsevents.jpg) no-repeat center top;
+	height:403px;
+}
+/***************************************
+News & Events Pages CSS Starts Here
+/***************************************/
